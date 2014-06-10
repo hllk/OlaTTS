@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#abcdef"
+    tools:context="com.example.olatts.ReadActivity"
+    tools:ignore="MergeRootFrame">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="70dp">
+        <TextView
+        android:id="@+id/poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/wierszyk"
+        />
+    
+    </ScrollView>
+
+    <Button
+        android:id="@+id/readButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#123456"
+        android:text="Czytaj!"
+        android:textColor="#ffffff" />
+
+        />
+    
+</RelativeLayout>

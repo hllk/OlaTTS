@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.olatts"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/speech"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.olatts.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.olatts.WriteActivity"
+            android:label="@string/title_activity_write" >
+        </activity>
+        <activity
+            android:name="com.example.olatts.ReadActivity"
+            android:label="@string/title_activity_read" >
+        </activity>
+        <activity
+            android:name="com.example.olatts.DateActivity"
+            android:label="@string/title_activity_date" >
+        </activity>
+        <activity
+            android:name="com.example.olatts.DateDialog"
+            android:label="@string/title_activity_date_dialog" >
+        </activity>
+    </application>
+
+</manifest>

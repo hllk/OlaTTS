@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OlaTTS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_write">Wpisz tekst</string>
+    <string name="title_activity_read">Jan Kochanowski - Na zdrowie</string>
+    <string name="wierszyk">Szlachetne zdrowie, \nNikt się nie dowie \nJako smakujesz, \nAż się zepsujesz. 
+        \nTam człowiek prawie \nWidzi na jawie \nI sam to powie, \nŻe nic nad zdrowie \nAni lepszego, \nAni droższego; 
+        \nBo dobre mienie, \nPerły, kamienie, \nTakże wiek młody \nI dar urody, \nMieśca wysokie,
+        \nWładze szerokie \nDobre są, ale — \nGdy zdrowie w cale. \nGdzie nie masz siły, \nI świat niemiły.
+        \nKlinocie drogi, \nMój dom ubogi \nOddany tobie \nUlubuj sobie!\n\n\n</string>
+    <string name="title_activity_date">Data</string>
+    <string name="title_activity_date_dialog">DateDialog</string>
+
+</resources>
